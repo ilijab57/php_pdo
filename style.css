@@ -1,0 +1,64 @@
+
+.landing_page h2 {
+    margin: 70px 0;
+    color: #64676c;
+}
+
+.landing_page_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.landing_page img {
+    max-width: 100%;
+}
+a.btn.btn-primary {
+    background-color: #1b78ff;
+    width: 200px;
+    margin-bottom: 70px;
+    border-color: #1b78ff;
+}
+a.btn.btn-primary:hover {
+    background-color: white;
+    color: #1b78ff;
+    transform: scale(1.1);
+}
+
+
+
+.form_page {
+    background-color:#418cfc;
+}
+
+.form_page h2 {
+    margin: 70px 0;
+    text-align: center;
+}
+
+form {
+    padding: 0 40px;
+}
+
+.form_page select {
+    margin: 30px 0 70px 0;
+}
+.form_page h5 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.form_page .image_url {
+    margin-bottom: 0;
+}
+.form_page hr {
+    border: 1px white solid;
+}
+.form_page .btn {
+    margin-bottom: 100px;
+    width: 200px;
+    font-weight: bold;
+}
+#error{
+    color: red;
+}

@@ -1,0 +1,100 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+
+nav.navbar.navbar-default {
+    margin-bottom: 0;
+    background-color: white;
+    border: none;
+
+}
+nav.navbar.navbar-default a {
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+nav.navbar.navbar-default a:hover {
+    background-color: goldenrod;
+    color:white
+}
+.navbar-toggle .collapsed .icon-bar {
+    background-color: red;
+}
+
+
+.cover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-position-y: 60%;
+}
+
+#title {
+    font-size: 4em;
+    font-weight: 900;
+    margin-top: 100px;
+}
+
+.about_us p {
+    text-align: justify;
+}
+.phone_address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 53px;
+}
+
+
+.products {
+    margin-top: 70px;
+}
+.products h2 {
+    margin-bottom: 50px;
+}
+
+.products img {
+    width: 99%;
+    height: 500px;
+}
+.products h6 {
+    margin-bottom: 30px;
+}
+
+
+
+.contact {
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.contact h2 {
+    margin-bottom: 50px;
+}
+
+form {
+    border: 2px solid goldenrod;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#form_button {
+    background-color: black;
+    color: white;
+    
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+.footer i {
+    font-size: 3em;
+    margin: 10px;
+    color: white;
+}
